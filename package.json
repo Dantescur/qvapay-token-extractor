@@ -1,0 +1,22 @@
+{
+  "name": "qvapay-token-extractor",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "$npm_execpath run build && vite preview",
+    "deploy": "$npm_execpath run build && wrangler deploy",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings",
+    "kv:create": "wrangler kv namespace create qvapay-sessions"
+  },
+  "dependencies": {
+    "hono": "^4.12.16"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.35.0",
+    "typescript": "^6.0.3",
+    "vite": "^6.4.2",
+    "vite-ssr-components": "^0.6.1",
+    "wrangler": "^4.87.0"
+  }
+}

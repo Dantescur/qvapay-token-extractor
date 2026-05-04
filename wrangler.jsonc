@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "qvapay-token-extractor",
+  "compatibility_date": "2025-08-03",
+  "main": "./src/index.tsx",
+  "kv_namespaces": [
+    {
+      "binding": "qvapay-sessions",
+      "id": "fb3233d8e0fd4b88a04fde206d0ea1fb"
+    }
+  ],
+  "vars": {
+    "QVPAY_API": "https://api.qvapay.com"
+  }
+}
