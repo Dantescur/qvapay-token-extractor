@@ -6,6 +6,7 @@ help.get('/', (c) => {
   return c.render(
     <>
       <header>
+        <img src="/logo.png" alt="" width="64" height="64" style={{ display: 'block', margin: '0 auto 1rem', imageRendering: 'pixelated' }} />
         <h1>qvapay/token-extractor</h1>
         <p>cómo funciona y por qué existe</p>
       </header>

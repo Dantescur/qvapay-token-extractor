@@ -7,6 +7,7 @@ login.get('/', (c) => {
   return c.render(
     <>
       <header>
+        <img src="/logo.png" alt="" width="64" height="64" style={{ display: 'block', margin: '0 auto 1rem', imageRendering: 'pixelated' }} />
         <h1>qvapay/token-extractor</h1>
         <p>extrae tu token bearer para usar la API</p>
       </header>
@@ -20,7 +21,7 @@ login.get('/', (c) => {
           <input id="password" type="password" placeholder="········" required autoComplete="current-password" />
 
           <label htmlFor="hasOtp" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', cursor: 'pointer', marginBottom: '1.25rem', userSelect: 'none' }}>
-            <input id="hasOtp" type="checkbox" style={{ width: '18px', height: '18px', accentColor: '#ff2d20', cursor: 'pointer', margin: 0 }} />
+            <input id="hasOtp" type="checkbox" />
             <span>tengo OTP activado</span>
           </label>
 
