@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'SF Mono', 'Cascadia Code', 'Fira Code', 'JetBrains Mono', ui-monospace, monospace;
+  font-family: "SF Mono", "Cascadia Code", "Fira Code", "JetBrains Mono", ui-monospace, monospace;
   background: #050505;
   color: #b0b0b0;
   max-width: 480px;
@@ -90,7 +90,9 @@ button {
   text-transform: lowercase;
   letter-spacing: 0.04em;
   cursor: pointer;
-  transition: background 150ms, opacity 150ms;
+  transition:
+    background 150ms,
+    opacity 150ms;
 }
 
 button:hover {
