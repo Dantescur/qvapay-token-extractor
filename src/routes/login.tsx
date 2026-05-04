@@ -8,11 +8,11 @@ login.get("/", (c) => {
     <>
       <header>
         <img
-          src="/logo.png"
+          src="/logo.webp"
           alt=""
           width="64"
           height="64"
-          style={{ display: "block", margin: "0 auto 1rem", imageRendering: "pixelated" }}
+          style={{ display: "block", margin: "0 auto 1rem" }}
         />
         <h1>qvapay/token-extractor</h1>
         <p>extrae tu token bearer para usar la API</p>

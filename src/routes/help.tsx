@@ -7,7 +7,7 @@ help.get("/", (c) => {
     <>
       <header>
         <img
-          src="/logo.png"
+          src="/logo.webp"
           alt=""
           width="64"
           height="64"
